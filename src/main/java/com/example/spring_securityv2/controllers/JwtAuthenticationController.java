@@ -2,14 +2,11 @@ package com.example.spring_securityv2.controllers;
 
 
 import com.example.spring_securityv2.config.JwtTokenUtil;
-import com.example.spring_securityv2.models.JwtRequest;
 import com.example.spring_securityv2.models.JwtResponse;
 import com.example.spring_securityv2.models.UserDAO;
-import com.example.spring_securityv2.models.UserDTO;
 import com.example.spring_securityv2.models.payload.LoginRequest;
 import com.example.spring_securityv2.models.payload.SignUpRequest;
 import com.example.spring_securityv2.repository.UserRepository;
-import com.example.spring_securityv2.services.TokenBlacklistService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
